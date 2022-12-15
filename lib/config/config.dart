@@ -2,16 +2,19 @@
   DEPLOY
 */
 const urlSocket_deploy = 'http://localhost:5000';
-const urlGetAlUser = 'http://localhost:5000/auth/getAllUser'; // get
-const urlLogin = 'http://localhost:5000/auth/login'; // post
 
-const urlSignUp = 'http://localhost:5000/auth/createUser'; // post
+const baseUrl = "http://localhost:5000";
 
-const urlCreateFreePost = 'http://localhost:5000/post/createFreePost/';
+const urlGetAlUser = '$baseUrl/auth/getAllUser'; // get
+const urlLogin = '$baseUrl/auth/login'; // post
+
+const urlSignUp = '$baseUrl/auth/createUser'; // post
+
+const urlCreateFreePost = '$baseUrl/post/createFreePost/';
 
 const urlGetAllOtherPost = ''; // get
 //region message
-const urlGetAllMessage = 'http://localhost:5000/message/getAllMessage'; // get
+const urlGetAllMessage = '$baseUrl/message/getAllMessage'; // get
 //#end region
 
 // ######################################################################

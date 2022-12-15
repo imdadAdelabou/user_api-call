@@ -11,7 +11,7 @@ class UserWork {
     required this.workStartDate,
   });
 
-  toUserWork(Map<String, dynamic> data) {
+  static toUserWork(Map<String, dynamic> data) {
     return UserWork(
       id: data["_id"],
       position: data["position"],

@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:loviser/models/user_work.dart';
 import 'package:loviser/modules/profile/pages/work_experience_page.dart';
 import '../../../providers/page/message_page/card_profile_provider.dart';
 
 class CardWorkWidget extends StatelessWidget {
   final bool isMe;
+  final UserWork userWork;
 
   const CardWorkWidget({
     super.key,
     this.isMe = false,
+    required this.userWork,
   });
 
   @override
@@ -83,7 +86,7 @@ class CardWorkWidget extends StatelessWidget {
             Row(
               children: [
                 Text(
-                  'Apple .inc',
+                  userWork.company,
                   style: TextStyle(
                     fontSize: 17,
                     fontWeight: FontWeight.bold,
@@ -109,16 +112,16 @@ class CardWorkWidget extends StatelessWidget {
             const SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: const [
+              children: [
                 Text(
-                  'FPT Software',
+                  userWork.position,
                   style: TextStyle(
                     color: Color.fromRGBO(82, 75, 107, 1),
                     fontSize: 16,
                   ),
                 ),
                 Text(
-                  '1/2015 - 5/2015',
+                  userWork.workStartDate,
                   style: TextStyle(
                     color: Color.fromRGBO(82, 75, 107, 1),
                     fontSize: 16,
