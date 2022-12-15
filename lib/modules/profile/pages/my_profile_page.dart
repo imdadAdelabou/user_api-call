@@ -53,11 +53,11 @@ class _MyProfilePageState extends State<MyProfilePage> {
       Map<String, dynamic> data = result.data as Map<String, dynamic>;
       print(data["message"]["works"]);
       var worksServer = data["message"]["works"];
+
       for (int i = 0; i < worksServer.length; i++) {
-        works.add(
-          UserWork.toUserWork(worksServer[i]),
-        );
+        works.add(UserWork.toUserWork(worksServer[i]));
       }
+
       return works;
     } catch (e) {
       return [];
