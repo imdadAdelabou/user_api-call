@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>653938056896-4f6mbk4etaod5amvnofr5g8hvsfq80vs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.653938056896-4f6mbk4etaod5amvnofr5g8hvsfq80vs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCCZiHrc3EMMpL50hUMwL6JJro23660nlE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>653938056896</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.loviser</string>
+	<key>PROJECT_ID</key>
+	<string>loviser-adbf5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>loviser-adbf5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:653938056896:ios:7ebb605d5468576e941725</string>
+</dict>
+</plist>
