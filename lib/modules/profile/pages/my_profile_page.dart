@@ -93,7 +93,9 @@ class _MyProfilePageState extends State<MyProfilePage> {
               children: [
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20.0),
-                  child: CardWorkWidget(isMe: widget.isMe),
+                  child: CardWorkWidget(
+                    isMe: widget.isMe,
+                  ),
                 ),
                 const SizedBox(height: 20),
                 Padding(
