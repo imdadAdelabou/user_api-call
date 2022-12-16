@@ -55,7 +55,7 @@ class _MyProfilePageState extends State<MyProfilePage> {
       var worksServer = data["message"]["works"];
 
       for (int i = 0; i < worksServer.length; i++) {
-        works.add(UserWork.toUserWork(worksServer[i]));
+        works.add(UserWork.toUserWork(worksServer[i] as Map<String, dynamic>));
       }
 
       return works;

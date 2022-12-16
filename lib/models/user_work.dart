@@ -13,10 +13,10 @@ class UserWork {
 
   static toUserWork(Map<String, dynamic> data) {
     return UserWork(
-      id: data["_id"],
-      position: data["position"],
-      company: data["company"],
-      workStartDate: data["workStartDate"],
+      id: data["_id"] ?? "",
+      position: data["position"] ?? "",
+      company: data["company"] ?? "",
+      workStartDate: data["workStartDate"] ?? "",
     );
   }
 }
